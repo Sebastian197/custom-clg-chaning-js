@@ -41,7 +41,7 @@ const error = (msg, bgColor = '#ff0000') => {
  * @param {string} msg Mensaje que queremos mostrar
  * @param {string} bgColor Color que le queremos dar al fondo
  */
-const warning = (msg, bgColor = '#999966') => {
+const warning = (msg, bgColor = '#ff6600') => {
     const styles = `background-color: ${bgColor}; color: white; display: block; padding: 0.3rem 1rem; font-family: Andale Mono, monospace; border-radius: 5px;`;
     showLog(styles, `⚠ ${msg}`);
 };
